@@ -1,3 +1,4 @@
 # MM 6th Github connection
 
-print("Hi")
+first = input("What might your name be?\n")
+print("Hello", first + "!" )
