@@ -9,6 +9,8 @@ print("I did it!")
 rain = input("Is it raining? \n").strip().lower().capitalize()
 print(rain + "? Really?")
 
+string = "This is a string"
+
 # QUESTION: Why do we have strings?
     # It is the only data type that can store letters.
 
@@ -23,3 +25,9 @@ mother_secname = input("What is your mother's last name? \n").strip().lower().ti
 mother_name = mother_firname + " " + mother_secname
 
 print(mother_name + "? I think I've heard of her. Thanks, I'll be calling her now.")
+
+# QUESTION : What is debugging?
+    # Debugging is fixing errors (bugs) in your code.
+    # Syntax Error :
+    # Logic Error :
+    # Runtime Error :
