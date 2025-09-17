@@ -1,13 +1,20 @@
 # MM 6th Update Hello World
 
 def hi(name):
+    name = name.strip().lower().title()
     print(f"Hello {name}! Good to meet you.")
 
-def greet(name):
-    name = input("What might your name be?\n")
-    return name
+#I don't understand how we're supposed to make this any nicer (using our current knowledge) without being contradictory in our code.
 
-user = greet(input("What might your name be?"))
+user = input("What's your name?\n")
+hi(user)
+user = input("What's your name?\n")
+hi(user)
+user = input("What's your name?\n")
+hi(user)
+user = input("What's your name?\n")
+hi(user)
+user = input("What's your name?\n")
 hi(user)
 
 
