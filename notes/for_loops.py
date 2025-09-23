@@ -18,7 +18,7 @@ print(f"The hour is: {hour}")
     # While and for "While this..." "For every this..."
 
 #QUESTION: What is iteration?
-    # Loop number? Tracking loop number. Changing the loop so that it doesn't become infinite
+    # An iteration is one instance of a loop. The iterator is how we keep track of it or what changes in the loop.
 
 #QUESTION: What are lists?
     # every item in the list must be a valid data type. Lists are variables holding multiple pieces of information. Multiple inputs.
