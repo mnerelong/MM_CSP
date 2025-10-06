@@ -40,13 +40,15 @@ int main(void){
 
     char grade; // create the variable, no value
     printf("What is your grade: "); // print the question then scanf to make it an input.
-    scanf("%c", &grade); // & symbol takes the information and basically does "variable += what I have been given"
+    scanf("%c", &grade);// & symbol takes the information and basically does "variable += what I have been given"
+    while (getchar() != '\n');
         //  ^ type of data and where you are going to send it.
     printf("%s typically have a %c in CSP!\n", animal, grade);
 
     printf("How much popcorn have you eaten (as a number)?: "); // print the question then scanf to make it an input.
     scanf("%f", &num_two);
     printf("%f? Impressive. \n");
+    while (getchar() != '\n');
     char name[30];
 
     printf("What is your full name?: ");
