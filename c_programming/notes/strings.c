@@ -20,6 +20,7 @@ int main(void){
     // c ONLY uses the + sign for addition
 
     strcmp(first_name, "Andrew");
+    // if true -> output 0
 
     strcat(first_name, " ");
     printf("[%s]\n", first_name);
