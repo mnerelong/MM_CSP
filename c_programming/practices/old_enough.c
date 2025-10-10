@@ -15,6 +15,10 @@ int main(void){
         printf("%d? You're old enough to get your learners permit! Not that anybody should trust you with one.\n", age);
     }else if(age >= 16 && age < 18){
         printf("%d? You're old enough to drive! Not that anybody would trust you to.\n", age);
+    }else if(age > 100){
+        printf("%d?! How are you still alive?\n", age);
+    }else{
+        printf("%d? You're old enough to vote! I don't trust that kind of responsibility with you, though.\n", age);
     }
 
     return 0;
