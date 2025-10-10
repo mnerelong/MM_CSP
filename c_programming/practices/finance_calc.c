@@ -19,5 +19,9 @@ int main(void){
     printf("How much do you typically spend on transport?\n");
     scanf("%f", &transport);
 
+    float left = monthly_income - rent - utilities - groceries - transport;
+
+    
+
     return 0;
 }

@@ -11,7 +11,7 @@ int main(void){
     scanf("%s", &name);
     strcat(name_decor, name);
     strcat(name_decor, ".Xx");
-    printf("%s", name_decor);
+    printf("%s\n", name_decor);
 
     return 0;
 }
