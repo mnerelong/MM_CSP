@@ -35,12 +35,34 @@ int main(void){
     printf("\n%d... %d... %d!\n", two_num, subtract(411,12), 500);
     return 0;
 }
-/*What a function is
-Why we use functions
-How to write a function in C
-What are arguments and parameters?
-How do arguments and parameters work together?
-How to use parameters and arguments in C
-What are return statements?
-How do return statements change how you define a function in C?
-What do return statements do with the information?*/
+/*
+QUESTION: What a function is
+    A function is a task (or tasks) to be called upon and carried out by the computer.
+
+QUESTION: Why we use functions
+    Functions reduce the repition in code and make it easier to use (and read) in the future.
+
+QUESTION: How to write a function in C
+ v returning data type. parameters go in the (parenthesis)*/
+void function(void){
+    printf("This is a function.");
+}
+/*
+QUESTION: What are arguments and parameters?
+    Parameters are like the variables that functions intake to be used inside of the function to replace a specific value and arguments are the values we put into the parameters.
+
+QUESTION: How do arguments and parameters work together?
+    Arguments are the values of the parameters.
+
+QUESTION: How to use parameters and arguments in C
+    Parameters are set with the function (inside of the parenthesis) and arguments go in their respective places.
+
+QUESTION: What are return statements?
+    Replace the function with the given value.
+
+QUESTION: How do return statements change how you define a function in C?
+    You need to specify the kind of data you are returning.
+
+QUESTION: What do return statements do with the information?
+    Replace the function (where it is called, whether it be in a print statement or otherwise) with the given value.
+*/
