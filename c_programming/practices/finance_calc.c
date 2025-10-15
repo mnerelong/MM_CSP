@@ -20,8 +20,5 @@ int main(void){
     scanf("%f", &transport);
 
     float left = monthly_income - rent - utilities - groceries - transport;
-
-    
-
     return 0;
 }
