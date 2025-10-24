@@ -5,7 +5,13 @@
 #include <time.h>
 
 int main(void){
-char hangman;
-printf(" o\n/|-- \n ||");
+
+printf("  o\n /|\\ \n /\\");
+srand(time(NULL));
+int wrong_attempt_tracker = rand() %6 +0;
+if (wrong_attempt_tracker == 0){
+    
+    
+}
     return 0;
 }
