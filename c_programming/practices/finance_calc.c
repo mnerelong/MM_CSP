@@ -21,6 +21,6 @@ int main(void){
 
     float left = monthly_income - rent - utilities - groceries - transport;
 
-    printf("Your rent/mortgage is %1.2f, which is %1.2f%% of your income.", 4.11, 4.11);
+    printf("Your rent/mortgage is $%1.2f, which is %1.2f%% of your income.", rent, erer);
     return 0;
 }
